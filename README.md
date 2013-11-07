@@ -32,3 +32,13 @@ android {
   //android build setup
 }
 ```
+
+maven local install
+```
+mvn install:install-file
+    -Dfile=foursquare-android-oauth-aar.aar
+    -DgroupId=com.foursquare
+    -DartifactId=foursquare-android-nativeoauth-lib
+    -Dversion=1.0.0
+    -Dpackaging=aar
+```
